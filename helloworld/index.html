@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+<p>
+    <b>Hello World!</b>
+    </p>
+    <button>Click me!!!</button>
+    <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav" autoplay="false" ></audio>
+    <a onclick="playSound();"> Play</a>
+    <script>
+    function playSound() {
+          var sound = document.getElementById("audio");
+          sound.play();
+      }
+    </script>
+</body>
+</html>
